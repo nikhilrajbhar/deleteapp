@@ -13,7 +13,7 @@ export class AppComponent {
     //Called after the constructor, initializing input properties, and the first call to ngOnChanges.
     //Add 'implements OnInit' to the class. tetsing 4
     const observables = new Observable((obj) => obj.next(Math.random()));
-
+    // testing 4
     //subsrciber1
     observables.subscribe(x => console.log('subsrciber1', x));
     //subsrciber2
